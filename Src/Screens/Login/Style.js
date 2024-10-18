@@ -12,10 +12,10 @@ const style = (darkmode) =>  StyleSheet.create({
     backgroundColor: darkmode ? Colors.Black : Colors.offWhite,
     borderRadius: 20,
     elevation: 2,
-    padding: 15,
+    padding: 15,alignSelf:'center'
   },
   LogoBox: {
-    marginVertical: 25,
+    marginVertical: 25,alignSelf:'center',alignItems:'center'
   },
   textbox: {
     marginVertical: 15,

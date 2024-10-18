@@ -4,6 +4,7 @@ import {
   TouchableOpacity,
   Alert,
   useColorScheme,
+  Image,
 } from 'react-native';
 import React from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
@@ -25,7 +26,9 @@ const Drawercustom = ({state, description, navigation}) => {
       <View style={Styler.container2}>
         <AntDesign name="close" color="#000" size={25} style={Styler.icon1} />
 
-        <View style={Styler.container3}></View>
+        <View style={Styler.container3}>
+          <Image source={require('../../Images/propic.jpg')} style={Styler.imgstyle} />
+        </View>
         <Text style={Styler.Nametext}>Jonna Doe</Text>
         <Text style={Styler.Emailtext}>jonnadoe@xyz.com</Text>
       </View>
